@@ -132,7 +132,7 @@ html, body {
     overflow:hidden
 }
 body {
-    font-family:'DuffyBold', sans-serif;
+    font-family:'love', sans-serif;
     font-size:18px;
     font-weight:lighter;
     color:#000
@@ -667,12 +667,12 @@ body {
     font-size:72px;
     margin:0;
     position:absolute;
-    top:75px;
+    top:150px;
     left:0
 }
 #sayhello {
     position:absolute;
-    top:160px;
+    top:220px;
     left:0;
     width:730px
 }
@@ -955,6 +955,12 @@ input::-webkit-input-placeholder, isindex::-webkit-input-placeholder, textarea::
     font-family:'DuffyBold';
     src:url('../fonts/duffyscript_bold-webfont.eot');
     src:url('../fonts/duffyscript_bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/duffyscript_bold-webfont.woff') format('woff'), url('../fonts/duffyscript_bold-webfont.ttf') format('truetype'), url('../fonts/duffyscript_bold-webfont.svg#DuffyBold') format('svg');
+    font-weight:normal;
+    font-style:normal
+}
+@font-face {
+    font-family:'love';
+    src:url('../fonts/love.otf');
     font-weight:normal;
     font-style:normal
 }
