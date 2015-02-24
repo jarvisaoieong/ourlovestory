@@ -227,7 +227,7 @@ body {
     position:relative;
     top:330px;
     left:600px;
-    width:300px;
+    width:420px;
     font-size:20px
 }
 #cbeebies .text p {
@@ -451,8 +451,10 @@ body {
     margin:0 auto
 }
 #mancskyline .text p:last-child {
-    width:260px;
-    margin:10px auto
+    width:520px;
+    margin:10px auto;
+    position:relative;
+    left: -150px;
 }
 #mancskyline .dot {
     top:327px;
@@ -541,7 +543,7 @@ body {
     left:585px
 }
 #thegatelab {
-    top:11880px;
+    top:11885px;
     left:5500px;
     width:849px;
     height:493px;
