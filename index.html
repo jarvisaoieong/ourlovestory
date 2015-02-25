@@ -155,7 +155,7 @@
           
           <div class="text">
             <p>
-              和豬仔一起去過不少地方，每一處笑聲不絕，不知道你還記不記得上面每一個地標是來自哪裏呢?
+              和豬仔一起去過不少地方，每一處都充滿著甜蜜回憶，不知道你還記不記得上面每一個地標是來自哪裏呢?
             </p>
             
             <p>
@@ -309,9 +309,9 @@
               </p>
             
               <p>
-                <input type="submit" id="submit" name="submit" value="確定" />
+                <input type="submit" id="submit" name="submit" value="確定"/>
               </p>  
-            </fieldset>       
+            </fieldset>
           </form>
           
           <span id="marker"></span>
@@ -330,6 +330,16 @@
     <script src="/resource/js/libs/jquery.min.js"></script>
     <script src="/resource/js/plugins.min.js"></script>
     <script src="/resource/js/global.min.js"></script>
+    <script type="text/javascript">
+    $('#submit').on('click', function (e) {
+      e.preventDefault();
+      if ($('#name').val().toLowerCase() !== 'candy fong') {
+        alert("名字不正確, 請不要冒認我的娘子");
+      } else {
+        alert("恭喜恭喜");
+      }
+    })
+    </script>
     
   </body>
 </html>
